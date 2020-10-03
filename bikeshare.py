@@ -45,7 +45,7 @@ def read_input(user_message, input_type):
 
     Input:
         user_message: The message to present to the user
-        input_type: The type of data entered
+        input_type: The type of data the user chose
 
     Returns:
         The user's input data
