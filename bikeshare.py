@@ -86,6 +86,7 @@ def read_input(user_message, input_type):
                 elif user_data == 'all':
                     return user_data
         print('Incorrect {} provided, please try again\n'.format(input_type))
+		print('Input type should relate to City, Month or Day.\n')
 
 
 def get_filters():
